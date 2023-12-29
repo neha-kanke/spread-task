@@ -1,0 +1,26 @@
+body {
+    background-color: yellow;
+    position: relative;
+    height: 100vh;
+
+}
+
+.spread {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    font-size: 30px;
+
+}
+
+  .spread span {
+    display: inline-block;
+    transition:  all .4s ease-in-out ;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+   .spread span:hover {
+  transform: translateY(-30px)scale(2)rotate(10deg);
+}
